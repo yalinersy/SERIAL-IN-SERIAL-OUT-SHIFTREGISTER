@@ -1,9 +1,11 @@
 ### NAME: SRIYALINE R
 ### REG NO: 24006194
-# EXPERIMENT 6: implement  SISO Shift Register 
+# EXPERIMENT 6: IMPLEMENTATION OF SISO SHIFT REGISTER
+
 # AIM:
 
 To implement  SISO Shift Register using verilog and validating their functionality using their functional tables
+
 
 # SOFTWARE REQUIRED:
 
@@ -30,9 +32,9 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
    
    Go to File → New Project Wizard.
    
-   Specify the project name, directory, and top-level entity name (e.g., JK_FlipFlop).
+   Specify the project name, directory, and top-level entity name (e.g., SISO).
    
-3. Create the JK Flip-Flop Circuit and implement the JK Flip-Flop by writing VHDL/Verilog code.
+3. Create the JK Flip-Flop Circuit and implement the SISO by writing VHDL/Verilog code.
 
    Go to File → New → Select Verilog File.
    
@@ -46,16 +48,17 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
    
    Go to Tools → University Program VWF.
    
-   Define the inputs for J, K, and CLK in the waveform editor.
+   Define the inputs for sin, and CLK in the waveform editor.
    
    Run the simulation and observe the waveforms.
    
 9. Verify the Results.
     
-   Compare the simulated results with the truth table for a JK Flip-Flop.
+# TRUTH TABLE
+![IMG-20241212-WA0009 1](https://github.com/user-attachments/assets/f78ff3eb-b440-4608-8aae-1a73da728b79)
 
 # PROGRAM
-![Screenshot 2024-12-12 132724](https://github.com/user-attachments/assets/bcb60b43-4239-4b86-b59d-399d17fce159)
+![Screenshot 2024-12-12 141917](https://github.com/user-attachments/assets/f12acc44-2277-4bba-8d9e-8610a1e35b83)
 
 # RTL
 ![Screenshot 2024-12-12 132716](https://github.com/user-attachments/assets/b3a92e4a-3ae0-46b3-b4ff-5352d29ac732)
